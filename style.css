@@ -54,16 +54,7 @@ nav ul li a:hover {
 }
 
 
-.leftsection .btn {
-    padding: 12px;
-    background-color: #FBA1B7;
-    color: white;
-    border: solid 2px white;
-    border-radius: 6px;
-    font-size: 15px;
-    cursor: pointer;
-   
-}
+
 
 .rightsection img {
   width: 80%;
@@ -79,4 +70,24 @@ nav ul li a:hover {
 }
 #element {
     color: rgb(21, 21, 109);
+}
+.btn{
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 2px white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;  
+}
+
+.btn:hover{
+    background-color: #2980b9;
+}
+.buttons{
+    display: flex;
 }
