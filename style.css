@@ -106,7 +106,7 @@ nav ul li a:hover {
 }
 .about-col-1 img{
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -131,7 +131,7 @@ nav ul li a:hover {
     content: '';
     width: 0;
     height: 3px;
-    background-color: aqua;
+    background-color: #D71313;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -148,5 +148,11 @@ nav ul li a:hover {
 .tab-contents ul li span{
     color:#D71313 ;
     font-size: 14px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
 }
 
